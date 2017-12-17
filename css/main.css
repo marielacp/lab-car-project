@@ -161,3 +161,58 @@ ul li{
     width: 15%;
     height:100px;
 }
+
+/**style modal**/
+.style{
+background-color:#08ac9d;
+}
+
+.img-header{
+width: 25%;
+height: auto;
+}
+.text-center{
+padding: 0;
+}
+.mbody{
+padding: 0rem;
+margin: 0rem 8rem 0 8rem;
+
+}
+.btn-login{
+margin-top: 0;
+}
+.form-cont{
+padding:5rem 0 2rem 0;
+}
+/** formulario registro de datos**/
+.color-fond{
+border:2px solid black;
+border-radius: 1rem;
+background-color:black;
+color: white;
+padding: 0.5rem;
+margin-top:-2rem;
+}
+.mbodyy{
+margin: 1rem;
+padding-bottom:-0rem;
+
+}
+.btn-form2 {
+width: 100%;
+margin: -5rem;
+}
+.style-two{
+background-color:#a9a9a9;
+}
+
+.label-style{
+color: black;
+}
+.mboddyy{
+padding-bottom: 1rem;
+}
+.style-close{
+border: 1px solid gray;
+}
