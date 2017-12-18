@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,82 +12,74 @@
 </head>
 <body>
 <nav>
-<!--Navbar-->
+<!--barra de menu-->
 <div class="container">
     <div class="navbar navbar-default">   
-      <div class="row">
-          <div class="col-xs-12">               
-            <div class="navbar-header">               
-                <div class="pull-left">
-                <button type="button " class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                </div>
-              <div class="pull-right">
-                <a class="navbar-brand flex" href="#"> <img class="img-responsive" src="assets/images/logoForma.png" alt=""></a>
-               </div>
-             </div>
-                  
-            <div class="navbar-collapse collapse navbar-ex1-collapse pull-right">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Viaja</a></li>
-                    <li><a href="#about">Conduce</a></li>
-                    <li><a href="#about" data-toggle="modal" data-target="#log-in"> Inicia Sesiòn</a></li>
-                <!--   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >Inicia Sesiòn 
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Action</a>
-                            </li><li><a href="#">Action</a>                       
-                        </ul>
-                    </li>-->
-                    <div class="modal fade" id="log-in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content style">
-                                <div class="modal-header" >
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <img class="center-block img-responsive img-header" src="assets/images/user-female-icon.png" alt="">
-                                </div>
-                                    <div class="modal-body">          
-                                        <div class="jumbotron mbody Absolute-Center is-Responsive">                                                         
-                                            <form class="form-horizontal form-cont ">   
-                                                <div class="container">
-                                                    <div class="form-group input-group">
-                                                        <span class="input-group-addon">
-                                                            <span class="glyphicon glyphicon-user">
-                                                            </span>
-                                                        </span>
-                                                        <input type="text" class="form-control " name="email" placeholder="User name" required>
-                                                    </div>
-                                                    <div class="form-group input-group">
-                                                        <span class="input-group-addon">
-                                                            <span class="glyphicon glyphicon-lock">
-                                                            </span>
-                                                        </span>
-                                                        <input type="password" class="form-control" name="password" placeholder="Password" required>
-                                                    </div>
-                                                    <div class="form-group text-center">
-                                                        <button class="btn btn-primary cell btn-login">LOGIN</button>
-                                                    </div>
-                                                    <div class="form-group text-center">
-                                                    <a href="">Forget Password?  </a>
-                                                    <a href="" >Click Here</a>
-                                                    </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
+        <div class="row">
+            <div class="col-xs-12">               
+                <div class="navbar-header">               
+                    <div class="pull-left">
+                        <button type="button " class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
-                </ul>   
+                        <div class="pull-right">
+                            <a class="navbar-brand flex" href="#"> <img class="img-responsive" src="assets/images/logoForma.png" alt=""></a>
+                        </div>
+                    </div>                  
+                    <div class="navbar-collapse collapse navbar-ex1-collapse pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Viaja</a></li>
+                            <li><a href="#about">Conduce</a></li>
+                            <li><a href="#about" data-toggle="modal" data-target="#log-in"> Inicia Sesiòn</a></li>                
+                            <div class="modal fade" id="log-in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content style">
+                                        <div class="modal-header" >
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <img class="center-block img-responsive img-header" src="assets/images/user-female-icon.png" alt="">
+                                        </div>
+                                            <div class="modal-body">          
+                                                <div class="jumbotron mbody Absolute-Center is-Responsive">                                                         
+                                                    <form class="form-horizontal form-cont ">   
+                                                        <div class="container">
+                                                            <div class="form-group input-group">
+                                                                <span class="input-group-addon">
+                                                                    <span class="glyphicon glyphicon-user">
+                                                                    </span>
+                                                                </span>
+                                                                <input type="text" class="form-control " name="email" placeholder="User name" required>
+                                                            </div>
+                                                            <div class="form-group input-group">
+                                                                <span class="input-group-addon">
+                                                                    <span class="glyphicon glyphicon-lock">
+                                                                    </span>
+                                                                </span>
+                                                                <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                            </div>
+                                                            <div class="form-group text-center">
+                                                                <button class="btn btn-primary cell btn-login">LOGIN</button>
+                                                            </div>
+                                                            <div class="form-group text-center">
+                                                            <a href="">Forget Password?  </a>
+                                                            <a href="" >Click Here</a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>   
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
     </div>
-</div>
-</div>
 </nav>
 <!--Secciòn1 imagen de fondo y formulario-->
 <section >
@@ -195,7 +186,7 @@
 </div>   
 <!--fin form-log-in-->    
                                             <button type="button"  data-toggle="modal" data-target="#driver" class="btn btn-default btn-lg small">Conviertete en un conductor</button> 
-<!--Probando formulario Conviertete en un conductor-->
+<!--formulario Conviertete en un conductor-->
 <div class="modal fade" id="driver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content style-two">
@@ -331,94 +322,6 @@
                                 <img class="img-logo-white img-responsive " src="assets/images/logoBlanco.png" alt=""> 
                                 <div>
                                     <button type="button" data-toggle="modal" data-target="#driver"class="btn btn-default btn-lg btn-color">Convièrtete en un conductor</button>
-<!--fin formulario conviertete en un conductor-->
-<!--Probando formulario Conviertete en un conductor-->
-<div class="modal fade" id="driver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content style-two">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            </div>
-            <div class="modal-body ">
-                <div class="jumbotron mboddyy Absolute-Center is-Responsive style-two">
-                    <form class="form-horizontal ">
-                        <div class="container ">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div >
-                                        <div class="form-group">
-                                            <label class="control-label label-style">¿Tienes Vehiculo de 4 Puertas?</label>
-                                            <select class="form-control">
-                                                <option>Si</option>
-                                                <option>No</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div >
-                                        <div class="form-group">
-                                            <label class="control-label label-style">Marca</label>
-                                            <select class="form-control">
-                                                <option>Toyota</option>
-                                                <option>Kia</option>
-                                                <option>Nissan</option>
-                                                <option>Hyundai</option>
-                                                <option>Susuki</option>
-                                                <option>Honda</option>
-                                                <option>Chevrolet</option>
-                                                <option>Mercedes Benz</option>
-                                            </select>
-                                        </div>
-                                        <h5 class="label-style"> No ves tu vehiculo en esta lista envia un correo electronico </h5>
-                                        <a href="">sociosmdv@uber.com</a>
-                                    </div>
-                                    <div >
-                                        <div class="form-group">
-                                            <label class="control-label label-style">Modelo</label>
-                                            <select class="form-control">
-                                                <option>Corola</option>
-                                                <option>Yaris</option>
-                                                <option>Rav-4</option>
-                                                <option>Hilux</option>
-                                                <option>Cerato</option>
-                                                <option>Gold</option>
-                                                <option>Sportage</option>
-                                                <option>Elantra</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="form-group">
-                                            <label class="control-label label-style">Año</label>
-                                            <select class="form-control">
-                                                <option>2017</option>
-                                                <option>2016</option>
-                                                <option>2014</option>
-                                                <option>2013</option>
-                                                <option>2012</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div >
-                                        <div class="form-group">
-                                            <label class="control-label label-style">Nùmero de matricula</label>
-                                            <input type="text" class="form-control" placeholder="Num-Matricula">
-                                        </div>
-                                    </div>
-                                    <div >
-                                        <div class="form-group text-center">
-                                            <button class="btn btn-primary btn-login btn-form2">LOGIN</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--fin formulario conviertete en un conductor-->
                                 </div>  
                             </div>               
                         </div>
@@ -432,23 +335,23 @@
 <section>
     <div class="container"> 
         <div class="cont-form">    
-                <div class="row">
-                    <div class=" col-xs-offset-1 col-xs-10 col-sm-4">                     
-                            <div>                
-                                <h3>Tarifas</h3>
-                                <p>Consulta las tarifas LabCar aquì</p>
-                                <img class="" src="assets/images/shape.png" alt="">
-                                <input class="form-control cell" type="text" id="formGroupInputSmall" placeholder="">
-                                <img class="" src="assets/images/shape2.png" alt="">
-                                <input class="form-control cell" type="text" id="formGroupInputSmall" placeholder="">
-                            </div>
-                                <button type="button" class="btn btn-default btn-lg">Trazar Ruta</button>
-                    </div>               
-                    <div class=" col-xs-offset-1 col-xs-10 col-sm-6 ">
-                        <br><br>
-                        <img class="img-rutas img-responsive" src="assets/images/rutas.png" alt="">
-                    </div>                
-                </div>
+            <div class="row">
+                <div class=" col-xs-offset-1 col-xs-10 col-sm-4">                     
+                        <div>                
+                            <h3>Tarifas</h3>
+                            <p>Consulta las tarifas LabCar aquì</p>
+                            <img class="" src="assets/images/shape.png" alt="">
+                            <input class="form-control cell" type="text" id="formGroupInputSmall" placeholder="">
+                            <img class="" src="assets/images/shape2.png" alt="">
+                            <input class="form-control cell" type="text" id="formGroupInputSmall" placeholder="">
+                        </div>
+                            <button type="button" class="btn btn-default btn-lg">Trazar Ruta</button>
+                </div>               
+                <div class=" col-xs-offset-1 col-xs-10 col-sm-6 ">
+                    <br><br>
+                    <img class="img-rutas img-responsive" src="assets/images/rutas.png" alt="">
+                </div>                
+            </div>
         </div>
     </div>    
 </section>

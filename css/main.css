@@ -3,7 +3,6 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
-
 .navbar {
  margin-bottom: 0;
 }
@@ -17,7 +16,6 @@ box-sizing: border-box;
    background-position:bottom; 
   /* background-position:center center; */   
 }
-
 .position-flex{
     width: 100%;
     display: flex;
@@ -120,7 +118,6 @@ margin-top:9%;
     width: 80%;
     padding: 2%;
     border: 1px solid white;
-
 }
 /**footer*/
 .cont-footer{
@@ -161,12 +158,10 @@ ul li{
     width: 15%;
     height:100px;
 }
-
 /**style modal**/
 .style{
 background-color:#08ac9d;
 }
-
 .img-header{
 width: 25%;
 height: auto;
@@ -177,7 +172,6 @@ padding: 0;
 .mbody{
 padding: 0rem;
 margin: 0rem 8rem 0 8rem;
-
 }
 .btn-login{
 margin-top: 0;
@@ -197,7 +191,6 @@ margin-top:-2rem;
 .mbodyy{
 margin: 1rem;
 padding-bottom:-0rem;
-
 }
 .btn-form2 {
 width: 100%;
@@ -206,10 +199,10 @@ margin: -5rem;
 .style-two{
 background-color:#a9a9a9;
 }
-
 .label-style{
 color: black;
 }
+/**Formulario Conductor**/
 .mboddyy{
 padding-bottom: 1rem;
 }
