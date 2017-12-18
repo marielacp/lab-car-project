@@ -8,6 +8,8 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/icons/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+  <!--  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,500,600,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/76a445f0fd.js"></script>-->
     <title>Document</title>
 </head>
 <body>
@@ -82,6 +84,7 @@
     </div>
 </nav>
 <!--Secciòn1 imagen de fondo y formulario-->
+<main>
 <section >
     <div class="container">
         <div class="image-fondo-one" >
@@ -332,29 +335,45 @@
     </div>
 </section>
 <!--Contenedor de formulario-->
-<section>
+<section >
     <div class="container"> 
         <div class="cont-form">    
             <div class="row">
                 <div class=" col-xs-offset-1 col-xs-10 col-sm-4">                     
-                        <div>                
+                     <div>              
                             <h3>Tarifas</h3>
                             <p>Consulta las tarifas LabCar aquì</p>
-                            <img class="" src="assets/images/shape.png" alt="">
+                           <img class="" src="assets/images/shape.png" alt="">
                             <input class="form-control cell" type="text" id="formGroupInputSmall" placeholder="">
                             <img class="" src="assets/images/shape2.png" alt="">
                             <input class="form-control cell" type="text" id="formGroupInputSmall" placeholder="">
-                        </div>
+                        <!--  <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="punto-Partida" class="glyphicon glyphicon-record"></label>
+                                    <input id="punto-Partida" type="text" class="form-control" placeholder="Ingrese su punto de partia">
+                                </div>
+                                <div class="form-group">
+                                    <label for="punto-Destino" class="glyphicon glyphicon-send"></label>
+                                    <input id="punto-Destino" type="text" class="form-control" placeholder="Ingrese su destino">
+                                </div>
+                                <div class="form-group">
+                                    <button id="trazarRuta" type="submit" class="btn btn-default col-md-offset-3">¡Trazar ruta!</button>
+                                    <div id="calcTarifa" class="col-md-offset-3"></div>
+                                </div>-->
+                            </form>
+                      </div>
                             <button type="button" class="btn btn-default btn-lg">Trazar Ruta</button>
                 </div>               
                 <div class=" col-xs-offset-1 col-xs-10 col-sm-6 ">
                     <br><br>
-                    <img class="img-rutas img-responsive" src="assets/images/rutas.png" alt="">
+                <!--   <div id="map" class="mapas">gdfgdf</div>-->
+                   <img class="img-rutas img-responsive" src="assets/images/rutas.png" alt="">
                 </div>                
             </div>
         </div>
     </div>    
 </section>
+</main>
 <!--footer-->
 <footer>
     <div class="container">
@@ -376,14 +395,14 @@
                     <p class="date-footer" >Seguridad</p>                  
                 </div>
                 <div class=" col-sm-3 visible-sm-block visible-md-block visible-lg-block">                 
-                    <p class="date-footer" >Viaja</p> 
-                    <p class="date-footer">Conduce</p>
-                    <p class="date-footer" >Ciudades</p> 
-                    <p class="date-footer" >Ciudades</p> 
-                    <p class="date-footer" >Entregas</p> 
-                    <p class="date-footer" >Còmo funciona?</p> 
-                    <p class="date-footer" >Paìses</p> 
-                    <p class="date-footer" >Seguridad</p>                  
+                    <p class="date-footer" >Oportunidades</p> 
+                    <p class="date-footer">Nuestra Historia</p>
+                    <p class="date-footer" >Api-LabCAR</p> 
+                    <p class="date-footer" >Eventos</p> 
+                    <p class="date-footer" >Desarrolladores</p> 
+                    <p class="date-footer" >Servicios</p> 
+                    <p class="date-footer" >Laboratoria</p> 
+                    <p class="date-footer" >Coders</p>                  
                     </div>
                             <div class="col-sm-3">
                     </div>            
@@ -418,6 +437,9 @@
          </div>
     </div>
 </footer>
+<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYezvZfBcThUhrpyzfW_xRVj-aljaRvNw&callback=initMap&libraries=places"
+    type="text/javascript"></script>-->
+    <script src="js/app.js" > </script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
